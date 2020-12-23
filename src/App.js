@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import SearchResult from './Components/SearchResult'
+import Header from './Components/Header'
+import GridList from './Components/GridList'
+import React, { useState } from 'react'
+import { makeStyles } from '@material-ui/core';
+import Container from '@material-ui/core/Container'
+
+const useStyle = makeStyles((theme) => ({
+  container: {
+    // background: "red",
+    marginTop: 10
+  }
+}));
 
 function App() {
+  const classes = useStyle();
+  const [value, setValue] = useState('');
+  const handleChange = (e) => {
+    setValue(e);
+  }
+  console.log(value);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Header onChange={(v) => handleChange(v)} />
+      <Container maxWidth="lg" className={classes.container}>
+        {value ? <SearchResult value={value} /> : <GridList />}
+        <br />
+      </Container>
+    </React.Fragment>
   );
 }
 
