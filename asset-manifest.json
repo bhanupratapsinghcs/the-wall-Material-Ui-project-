@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/the-wall-Material-Ui-project-/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/the-wall-Material-Ui-project-/static/js/main.ef4df11b.chunk.js",
+    "main.js.map": "/the-wall-Material-Ui-project-/static/js/main.ef4df11b.chunk.js.map",
+    "runtime-main.js": "/the-wall-Material-Ui-project-/static/js/runtime-main.b35e1bbc.js",
+    "runtime-main.js.map": "/the-wall-Material-Ui-project-/static/js/runtime-main.b35e1bbc.js.map",
+    "static/js/2.74ac2f21.chunk.js": "/the-wall-Material-Ui-project-/static/js/2.74ac2f21.chunk.js",
+    "static/js/2.74ac2f21.chunk.js.map": "/the-wall-Material-Ui-project-/static/js/2.74ac2f21.chunk.js.map",
+    "static/js/3.8e3d4919.chunk.js": "/the-wall-Material-Ui-project-/static/js/3.8e3d4919.chunk.js",
+    "static/js/3.8e3d4919.chunk.js.map": "/the-wall-Material-Ui-project-/static/js/3.8e3d4919.chunk.js.map",
+    "index.html": "/the-wall-Material-Ui-project-/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/the-wall-Material-Ui-project-/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.74ac2f21.chunk.js.LICENSE.txt": "/the-wall-Material-Ui-project-/static/js/2.74ac2f21.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b35e1bbc.js",
+    "static/js/2.74ac2f21.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.ef4df11b.chunk.js"
+  ]
+}
